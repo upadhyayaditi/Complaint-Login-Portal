@@ -3,7 +3,7 @@ import React from 'react'
 const SignUp = () => {
   return (
     <div className="flex items-center justify-center min-h-screen " >
-      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-lg  " >
+      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-lg bg-opacity-75 " >
         <h2 className="text-3xl font-bold text-center" style={{color: '#195c90'}} >Sign Up</h2>
         <form onSubmit={() => {}} className="space-y-4">
           <div>
