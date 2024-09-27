@@ -3,13 +3,14 @@ import React from 'react'
 const SignUp = () => {
   return (
     <div className="flex items-center justify-center min-h-screen " >
-      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-lg bg-opacity-75 " >
+      <div className="w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-lg bg-opacity-20 " >
         <h2 className="text-3xl font-bold text-center" style={{color: '#195c90'}} >Sign Up</h2>
         <form onSubmit={() => {}} className="space-y-4">
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-600">Email</label>
+            <label className="block mb-2 text-sm font-bold text-black-500">Email</label>
             <input
               type="email" 
+              placeholder='employee@tsmuni.in'
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             //   value={email}
             //   onChange={(e) => setEmail(e.target.value)}
@@ -17,9 +18,10 @@ const SignUp = () => {
             />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-600">Password</label>
+            <label className="block mb-2 text-sm font-bold text-black-500">Password</label>
             <input
               type="password"
+              placeholder='password'
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             //   value={password}
             //   onChange={(e) => setPassword(e.target.value)}
@@ -27,9 +29,10 @@ const SignUp = () => {
             />
           </div>
           <div>
-            <label className="block mb-2 text-sm font-medium text-gray-600">Confirm Password</label>
+            <label className="block mb-2 text-sm font-bold text-black-500">Confirm Password</label>
             <input
               type="password"
+              placeholder='password'
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             //   value={password}
             //   onChange={(e) => setPassword(e.target.value)}

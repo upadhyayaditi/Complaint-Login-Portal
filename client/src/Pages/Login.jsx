@@ -13,7 +13,7 @@ const Login = () => {
             <label className="block mb-2 text-sm font-bold text-black-500">Email</label>
             <input
               type="email"
-              placeholder='user@tsmuni.in'
+              placeholder='employee@tsmuni.in'
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
             //   value={email}
             //   onChange={(e) => setEmail(e.target.value)}

@@ -8,7 +8,7 @@ const Navbar = () => {
           <img src={logo} className="h-51 w-60" alt="logo" />
         </div>
         <div className="md:flex md:items-center md:space-x-4">
-          <h2 className='text-4xl  font-bold text-black py-2 px-20' style={{color: '#195c90'}} >IT Complaint Login Portal</h2>
+          <h2 className='text-4xl  font-bold text-black py-2 px-9' style={{color: '#195c90'}} >IT Complaint Login Portal</h2>
         </div>
     </div> 
   );
