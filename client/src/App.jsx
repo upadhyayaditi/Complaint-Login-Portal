@@ -7,7 +7,8 @@ import { useEffect, useState } from "react"
 import LoginAdmin from "./Pages/admin/LoginAdmin"
 import SignUpAdmin from "./Pages/admin/SignUpAdmin"
 import AdminHome from "./Pages/admin/AdminHome"
-import Assets from "./Pages/admin/Assets"
+import AssetForm from "./Pages/admin/AssetForm"
+
 
  
  const App = () => {
@@ -35,7 +36,7 @@ import Assets from "./Pages/admin/Assets"
       <Route path="/admin/login" exact element={<LoginAdmin />} />
       <Route path="/admin/signup" exact element={<SignUpAdmin />} />
       <Route path="/admin/home" exact element={<AdminHome />} />
-      <Route path="/admin/assets" exact element={<Assets />} />
+      <Route path="/admin/asset" exact element={<AssetForm />} />
     </Routes>
     </div>  
     
