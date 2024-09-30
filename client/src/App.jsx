@@ -6,6 +6,8 @@ import Navbar from "./Components/Navbar"
 import { useEffect, useState } from "react"
 import LoginAdmin from "./Pages/admin/LoginAdmin"
 import SignUpAdmin from "./Pages/admin/SignUpAdmin"
+import AdminHome from "./Pages/admin/AdminHome"
+import Assets from "./Pages/admin/Assets"
 
  
  const App = () => {
@@ -32,6 +34,8 @@ import SignUpAdmin from "./Pages/admin/SignUpAdmin"
       <Route path="/signup" exact element={<SignUp />} />
       <Route path="/admin/login" exact element={<LoginAdmin />} />
       <Route path="/admin/signup" exact element={<SignUpAdmin />} />
+      <Route path="/admin/home" exact element={<AdminHome />} />
+      <Route path="/admin/assets" exact element={<Assets />} />
     </Routes>
     </div>  
     
