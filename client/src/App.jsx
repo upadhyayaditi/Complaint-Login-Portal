@@ -4,6 +4,8 @@ import Login from "./Pages/Login"
 import SignUp from "./Pages/SignUp"
 import Navbar from "./Components/Navbar"
 import { useEffect, useState } from "react"
+import LoginAdmin from "./Pages/admin/LoginAdmin"
+import SignUpAdmin from "./Pages/admin/SignUpAdmin"
 
  
  const App = () => {
@@ -12,7 +14,8 @@ import { useEffect, useState } from "react"
   const [showBackground, setShowBackground] = useState(false);
 
   useEffect(() => {
-    if(location.pathname === "/" || location.pathname === "/signup"){
+    if(location.pathname === "/" || location.pathname === "/signup" || location.pathname === "/admin/login" || location.pathname === "/admin/signup"
+    ){
       setShowBackground(true);
     }else{
       setShowBackground(false);
@@ -27,6 +30,8 @@ import { useEffect, useState } from "react"
       <Route path="/" exact element={<Login />} />
       <Route path="/dashboard" exact element={<Home />} />
       <Route path="/signup" exact element={<SignUp />} />
+      <Route path="/admin/login" exact element={<LoginAdmin />} />
+      <Route path="/admin/signup" exact element={<SignUpAdmin />} />
     </Routes>
     </div>  
     
