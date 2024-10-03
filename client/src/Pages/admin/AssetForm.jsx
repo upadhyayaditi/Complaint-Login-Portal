@@ -2,7 +2,7 @@ import React from "react";
 
 const AssetForm = () => {
   return (
-    <div className="container mx-auto p-6 mt-20">
+    <div className="container mx-auto p-6 mt-20 fixed">
       <h1 className="text-3xl font-bold mb-6 text-center text-yellow-400 ">
         Asset Management Form
       </h1>
@@ -201,7 +201,7 @@ const AssetForm = () => {
             htmlFor="assetType"
             className="block text-sm font-medium text-blue-900"
           >
-            PDD Capacity
+            HDD/SDD Capacity
           </label>
           <input
             type="text"
@@ -222,8 +222,9 @@ const AssetForm = () => {
             id="pcWorking"
             className="mt-1 block w-full border cursor-pointer border-gray-300 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
           >
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option>--Select--</option>
+            <option>Yes</option>
+            <option>No</option>
           </select>
         </div>
 
@@ -250,8 +251,8 @@ const AssetForm = () => {
 
 export default AssetForm;
 
-{
-  /* <div className='flex h-[98vh] gap-4 mt-20'>
+// {
+//   /* <div className='flex h-[98vh] gap-4 mt-20'>
         
-        </div> */
-}
+//         </div> */
+// }
