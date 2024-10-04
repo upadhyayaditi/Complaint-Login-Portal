@@ -230,13 +230,7 @@ const AssetForm = () => {
 
         {/* Submit Button */}
         <div className="col-span-full flex justify-end mt-4">
-          <button
-            type="submit"
-            className="bg-blue-600 text-white px-6 py-2 mr-4 rounded-md hover:bg-blue-900 transition duration-200"
-          >
-            Update
-          </button>
-
+          
           <button
             type="update"
             className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-900 transition duration-200"
