@@ -65,6 +65,9 @@ const AssetForm = () => {
             className="mt-1 block w-full border border-gray-300 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
           />
 
+
+          
+
           <label
             htmlFor="assetType"
             className="block text-sm font-medium text-blue-900"
@@ -197,12 +200,13 @@ const AssetForm = () => {
             className="mt-1 block w-full border border-gray-300 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
           />
 
-          <label
+<label
             htmlFor="assetType"
             className="block text-sm font-medium text-blue-900"
           >
-            HDD/SDD Capacity
+            RAM Type
           </label>
+          
           <input
             type="text"
             name="Department"
