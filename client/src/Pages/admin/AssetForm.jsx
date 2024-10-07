@@ -2,7 +2,7 @@ import React from "react";
 
 const AssetForm = () => {
   return (
-    <div className="container mx-auto p-6 mt-20 fixed">
+    <div className="container  mx-auto p-6 mt-20 fixed z-40 ">
       <h1 className="text-3xl font-bold mb-6 text-center text-yellow-400 ">
         Asset Management Form
       </h1>
@@ -81,6 +81,21 @@ const AssetForm = () => {
             // placeholder="Enter Asset Type"
             className="mt-1 block w-full border border-gray-300 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
           />
+
+          <label
+            htmlFor="assetType"
+            className="block text-sm font-medium text-blue-900"
+          >
+            OS
+          </label>
+          <input
+            type="text"
+            // name="Department"
+            // id="assetType"
+            // placeholder="Enter Asset Type"
+            className="mt-1 block w-full border border-gray-300 p-2 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
+          />
+          
         </div>
 
         {/* second column */}
