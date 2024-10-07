@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../assets/logo.svg';
+import Heading from "./Heading";
 
 const Navbar = () => {
   return (
@@ -8,9 +9,7 @@ const Navbar = () => {
       <img src={logo} className="h-12 w-24 md:h-16 md:w-32 lg:h-12 lg:w-40" alt="logo" /> 
     </div>
     <div className="md:flex md:items-center md:space-x-4 ml-auto">
-      <h2 className='hidden md:block text-2xl md:text-2xl lg:text-3xl font-bold text-black py-2 px-2 md:px-2' style={{ color: '#195c90' }}>
-        IT Complaint Login Portal
-      </h2>
+      <Heading />
     </div>
   </div>
   
